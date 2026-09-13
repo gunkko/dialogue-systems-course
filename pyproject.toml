@@ -35,7 +35,7 @@ dependencies = [
     # Telegram бот
     "aiogram>=3.19.0",
     "orjson>=3.10.16",
-    "uvloop>=0.21.0",
+    "uvloop>=0.21.0; sys_platform != 'win32'",
     # Утилиты
     "pydantic>=2.12.5",
     "python-dotenv>=1.2.1",
